@@ -1,0 +1,20 @@
+unit: ms
+containers:
+    - Worker
+states:
+    - Worker State
+keep:
+    - starpu_slu_lu_model_11
+    - starpu_slu_lu_model_12 
+    - starpu_slu_lu_model_21
+    - starpu_slu_lu_model_22
+    - Callback
+    - Scheduling
+# ignored:
+    # - Deinitializing
+    # - Idle
+    # - Initializing
+    # - FetchingInput
+    # - PushingOutput
+    # - Overhead
+    # - Sleeping

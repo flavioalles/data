@@ -1,0 +1,11 @@
+framework,application,run,timestep
+# MPI/Ondes3D/Blocking
+MPI,Ondes3D,Blocking,1
+# MPI/Ondes3D/Non-blocking
+MPI,Ondes3D,Non-blocking,1
+# StarPU/Cholesky/20
+StarPU,Cholesky,20,2
+# StarPU/Cholesky/80
+StarPU,Cholesky,80,1
+# StarPU/LU/80
+StarPU,LU,80,1

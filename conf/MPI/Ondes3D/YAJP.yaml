@@ -1,0 +1,15 @@
+containers:
+    - PROCESS
+states:
+    - STATE
+discard:
+    - MPI_Barrier
+    - MPI_Comm_dup
+    - MPI_Comm_rank
+    - MPI_Comm_size
+    - MPI_Finalize
+    - MPI_Init
+    - MPI_Isend
+    - MPI_Recv
+    - MPI_Reduce
+    - MPI_Wait

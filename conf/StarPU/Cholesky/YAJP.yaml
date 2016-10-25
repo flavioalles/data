@@ -1,0 +1,19 @@
+unit: ms
+containers:
+    - Worker
+states:
+    - Worker State
+keep:
+    - cl11
+    - cl21
+    - cl22
+    - cl22_p
+    - Callback
+    - Scheduling
+# ignored:
+    # - Idle
+    # - Initializing
+    # - FetchingInput
+    # - PushingOutput
+    # - Overhead
+    # - Sleeping
